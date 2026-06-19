@@ -120,19 +120,19 @@ const foodMenu = [
         title: "Build Your Taco!",
         base: "tortilla",
         toppings: ["meat", "lettuce", "cheese"],
-        folder: "Mexico/Mexico Minigame 1/Taco/" // Path to taco images
+        folder: "Images/Mexico/Mexico Minigame 1/Taco/" // Path to taco images
     },
     {
         title: "Build Your Tamale!",
         base: "husk",
         toppings: ["masa", "meat", "salsa"],
-        folder: "Mexico/Mexico Minigame 1/Tamale/" // Make sure you create this folder & images!
+        folder: "Images/Mexico/Mexico Minigame 1/Tamale/" // Make sure you create this folder & images!
     },
     {
         title: "Build Your Quesadilla!",
         base: "tortilla",
         toppings: ["cheese", "meat", "salsa"],
-        folder: "Mexico/Mexico Minigame 1/Quesadilla/" // Make sure you create this folder & images!
+        folder: "Images/Mexico/Mexico Minigame 1/Quesadilla/" // Make sure you create this folder & images!
     }
 ];
 
@@ -242,7 +242,7 @@ function setupMaze() {
         for (let c = 0; c < 3; c++) {
             const tile = document.getElementById(`t-${r}-${c}`);
             if (tile) {
-                tile.style.background = "#d9d9d9"; // Standard tile color
+                tile.style.background = "#22404d"; // Standard tile color
                 if (r === 2 && c === 2) {
                     tile.innerHTML = "💎"; // Ensure treasure stays on the last tile
                 } else {
@@ -256,7 +256,7 @@ function setupMaze() {
     correctPath.forEach(([r, c]) => {
         const tile = document.getElementById(`t-${r}-${c}`);
         if (tile) {
-            tile.style.background = "#f4d35e"; // glow color
+            tile.style.background = "#e3e453"; // glow color
         }
     });
 
@@ -265,7 +265,7 @@ function setupMaze() {
         correctPath.forEach(([r, c]) => {
             const tile = document.getElementById(`t-${r}-${c}`);
             if (tile) {
-                tile.style.background = "#d9d9d9"; // Reset back to default
+                tile.style.background = "#22404d"; // Reset back to default
             }
         });
     }, 4000);
@@ -281,7 +281,7 @@ function selectTile(row, col, tile) {
     if (row === expected[0] && col === expected[1]) {
         // Correct step!
         tile.innerHTML = "🧍";
-        tile.style.background = "#90be6d"; // Success green
+        tile.style.background = "#8fc440"; // Success green
 
         currentStep++;
 
@@ -706,10 +706,9 @@ function snapPhoto() {
         alert("The photo is too blurry! Slide the focus to make it clear. -$50");
     }
 }
-
 /* ========================================================
-   CAPE TOWN GAME 2: CABLE CAR STABILIZER (VISUAL)
-======================================================== */
+   CAPE TOWN GAME 2: CABLE CAR STABILIZER (CLEANED)
+======================================================= */
 let stableCount = 0;
 let currentWind = "";
 const directions = ["⬆️", "⬇️", "⬅️", "➡️"];
@@ -1209,3 +1208,4 @@ window.onload = function () {
     initSumoGame();
     initVictoryScreen();
 };
+
