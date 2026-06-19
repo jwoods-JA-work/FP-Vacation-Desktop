@@ -445,7 +445,7 @@ function initEiffelGame() {
         target.className = "popup-target";
         
         // 70% chance to be a landmark, 30% chance to be a pigeon
-        const isPigeon = Math.random() < 0.3;
+        const isPigeon = Math.random() < 0.5;
         target.innerHTML = isPigeon ? "🐦" : ["🏛️", "⛪️", "🏰"][Math.floor(Math.random() * 3)];
         
         // Random position within the camera view
@@ -482,7 +482,7 @@ function initEiffelGame() {
         // Disappear after 1.5 seconds if not clicked
         setTimeout(() => { if(target.parentNode) target.remove(); }, 1500);
 
-    }, 1000);
+    }, 400);
 }
 
 /* ========================================================
