@@ -443,20 +443,14 @@ body {
 #food-game-screen {
     width: 100vw;
     height: 100vh;
-    background: repeating-linear-gradient(
-        -45deg,
-        #000000,
-        #000000 10px,
-        #111111 10px,
-        #111111 20px
-    );
-
+    background: linear-gradient(to right, #203e48, #185261, #007c92, #008fa9);
+    padding-top: 40px;
     text-align: center;
     padding-top: 40px;
 }
 
 #food-game-screen h1 {
-    color: #00889c;
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 60px;
@@ -480,7 +474,7 @@ body {
     width: 400px;
     height: 250px;
     margin: 40px auto;
-    background: #22404D;
+    background: #fff;
     border-radius: 20px;
     border: 5px solid black;
 
@@ -608,18 +602,12 @@ body {
     width: 100vw;
     height: 100vh;
     text-align: center;
-    background: repeating-linear-gradient(
-        -45deg,
-        #000000,
-        #000000 10px,
-        #111111 10px,
-        #111111 20px
-    );
+    background: linear-gradient(to right, #203e48, #185261, #007c92, #008fa9);
     padding-top: 40px;
 }
 
 #pyramid-game-screen h1 {
-    color: #00889c;
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 60px;
 }
@@ -681,19 +669,13 @@ body {
 #yacht-game-screen {
     width: 100vw;
     height: 100vh;
-    background: repeating-linear-gradient(
-        -45deg,
-        #000000,
-        #000000 10px,
-        #111111 10px,
-        #111111 20px
-    );
+    background: linear-gradient(to right, #203e48, #185261, #007c92, #008fa9);
     text-align: center;
     padding-top: 40px;
 }
 
 #yacht-game-screen h1 {
-    color: #00889c;
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 60px;
     margin-bottom: 10px;
@@ -806,20 +788,14 @@ body {
 #eiffel-game-screen {
     width: 100vw;
     height: 100vh;
-    background: repeating-linear-gradient(
-        -45deg,
-        #000000,
-        #000000 10px,
-        #111111 10px,
-        #111111 20px
-    );
+    background: linear-gradient(to right, #203e48, #185261, #007c92, #008fa9);
 
     text-align: center;
     padding-top: 40px;
 }
 
 #eiffel-game-screen h1 {
-    color: #00889c;
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 60px;
     margin-bottom: 10px; 
@@ -857,20 +833,13 @@ body {
 #louvre-game-screen {
     width: 100vw;
     height: 100vh;
-    background: repeating-linear-gradient(
-        -45deg,
-        #000000,
-        #000000 10px,
-        #111111 10px,
-        #111111 20px
-    );
-
+    background: linear-gradient(to right, #203e48, #185261, #007c92, #008fa9);
     text-align: center;
     padding-top: 40px;
 }
 
 #louvre-game-screen h1 {
-    color: #00889c;
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 60px;
     margin-bottom: 10px; 
@@ -961,23 +930,8 @@ body {
 #serve-btn:hover { transform: scale(1.05); }
 
 
-#louvre-game-screen {
-    width: 100vw;
-    height: 100vh;
-    background: repeating-linear-gradient(
-        -45deg,
-        #000000,
-        #000000 10px,
-        #111111 10px,
-        #111111 20px
-    );
-
-    text-align: center;
-    padding-top: 40px;
-}
-
 #michelin-game-screen h1 {
-    color: #00889c;
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 60px;
     margin-bottom: 10px; 
@@ -993,13 +947,8 @@ body {
 #michelin-game-screen {
     width: 100vw;
     height: 100vh;
-    background: repeating-linear-gradient(
-        -45deg,
-        #000000,
-        #000000 10px,
-        #111111 10px,
-        #111111 20px
-    );
+    background: linear-gradient(to right, #203e48, #185261, #007c92, #008fa9);
+
 
     text-align: center;
     padding-top: 40px;
@@ -1055,19 +1004,14 @@ body {
 #penguin-game-screen {
     width: 100vw;
     height: 100vh;
-    background: repeating-linear-gradient(
-        -45deg,
-        #000000,
-        #000000 10px,
-        #111111 10px,
-        #111111 20px
-    );
+    background: linear-gradient(to right, #203e48, #185261, #007c92, #008fa9);
+
     text-align: center;
     padding-top: 40px;
 }
 
 #penguin-game-screen h1 {
-    color: #00889c;
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 60px;
     margin-bottom: 10px;
@@ -1238,19 +1182,14 @@ body {
 #safari-game-screen {
     width: 100vw;
     height: 100vh;
-    background: repeating-linear-gradient(
-        -45deg,
-        #000000,
-        #000000 10px,
-        #111111 10px,
-        #111111 20px
-    );
+    background: linear-gradient(to right, #203e48, #185261, #007c92, #008fa9);
+
     text-align: center;
     padding-top: 40px;
 }
 
 #safari-game-screen h1 {
-    color: #00889c;
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     margin-bottom: 10px;
@@ -1349,19 +1288,14 @@ body {
 #claw-game-screen {
     width: 100vw;
     height: 100vh;
-    background: repeating-linear-gradient(
-        -45deg,
-        #000000,
-        #000000 10px,
-        #111111 10px,
-        #111111 20px
-    );
+    background: linear-gradient(to right, #203e48, #185261, #007c92, #008fa9);
+
     text-align: center;
     padding-top: 40px;
 }
 
 #claw-game-screen h1 {
-    color: #00889c;
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     margin-bottom: 10px;
@@ -1538,19 +1472,14 @@ body {
 #sumo-game-screen {
     width: 100vw;
     height: 100vh;
-    background: repeating-linear-gradient(
-        -45deg,
-        #000000,
-        #000000 10px,
-        #111111 10px,
-        #111111 20px
-    );
+    background: linear-gradient(to right, #203e48, #185261, #007c92, #008fa9);
+
     text-align: center;
     padding-top: 40px;
 }
 
 #sumo-game-screen h1 {
-    color: #00c0ca;
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     margin-bottom: 10px;
@@ -1606,7 +1535,7 @@ body {
 
 .end-card p {
     font-size: 20px;
-    color: #555;
+    color: #fff;
     margin-bottom: 30px;
     font-family: 'Roboto Condensed', sans-serif;
     line-height: 1.5;
